@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matheus">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Listas</title>
+</head>
+<body>
+    <header>
+        <h1>Gerador De Listas</h1>
+    </header>
+    <form>
+      <input type="text" class="todo-input " />
+      <button class="todo-button" type="submit">
+        <i class="fas fa-plus-square"></i>
+      </button>
+      <div class="select">
+        <select name="todos" class="filter-todo">
+          <option value="todos">Todos</option>
+          <option value="completo">Completo</option>
+          <option value="incompleto">incompleto</option>
+        </select>
+      </div>
+    </form>
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+
+    <script src="./Semana7_Q1.js"></script>
+
+    <footer>
+      <p>&copy; MATHEUS</p>
+  </footer>
+  </body>
+</html>
